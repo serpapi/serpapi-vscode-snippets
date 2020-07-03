@@ -1,0 +1,2290 @@
+{
+  "google: Calculator Answer Box": {
+    "prefix": "serpapi google calculator answer box",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"PI\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Calculator Answer Box"
+  },
+  "google: Weather Answer Box": {
+    "prefix": "serpapi google weather answer box",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"What's the weather in Dallas?\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Weather Answer Box"
+  },
+  "google: Converter Answer Box": {
+    "prefix": "serpapi google converter answer box",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"How much is 100 euros in us dollars?\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Converter Answer Box"
+  },
+  "google: Flights Answer Box": {
+    "prefix": "serpapi google flights answer box",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Book flight to SFO\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Flights Answer Box"
+  },
+  "google: Dictionary Answer Box": {
+    "prefix": "serpapi google dictionary answer box",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"What's the definition of transparent?\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Dictionary Answer Box"
+  },
+  "google: List Answer Box": {
+    "prefix": "serpapi google list answer box",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"French toast recipe\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: List Answer Box"
+  },
+  "google: Organic Result Answer Box": {
+    "prefix": "serpapi google organic result answer box",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"PI\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Organic Result Answer Box"
+  },
+  "google: Search Query": {
+    "prefix": "serpapi google search query",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_scholar_cite\",",
+      "  q: \"FDc6HiktlqEJ\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "citations = client.get_hash[:citations]"
+    ],
+    "description": "google: Search Query"
+  },
+  "google: Localization": {
+    "prefix": "serpapi google localization",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_autocomplete\",",
+      "  q: \"t scott\",",
+      "  cp: \"1\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "suggestions = client.get_hash[:suggestions]"
+    ],
+    "description": "google: Localization"
+  },
+  "google: Serpapi Parameters": {
+    "prefix": "serpapi google serpapi parameters",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_autocomplete\",",
+      "  q: \"t scott\",",
+      "  cp: \"7\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "suggestions = client.get_hash[:suggestions]"
+    ],
+    "description": "google: Serpapi Parameters"
+  },
+  "google: Advanced Autocomplete Parameters": {
+    "prefix": "serpapi google advanced autocomplete parameters",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_autocomplete\",",
+      "  q: \"pewdiepie\",",
+      "  client: \"chrome\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "suggestions = client.get_hash[:suggestions]"
+    ],
+    "description": "google: Advanced Autocomplete Parameters"
+  },
+  "google: JSON Results": {
+    "prefix": "serpapi google json results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_autocomplete\",",
+      "  q: \"pewdiepie\",",
+      "  client: \"safari\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "suggestions = client.get_hash[:suggestions]"
+    ],
+    "description": "google: JSON Results"
+  },
+  "google: Results": {
+    "prefix": "serpapi google results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_autocomplete\",",
+      "  q: \"pewdiepie\",",
+      "  client: \"chrome\",",
+      "  hl: \"en\",",
+      "  gl: \"au\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "suggestions = client.get_hash[:suggestions]"
+    ],
+    "description": "google: Results"
+  },
+  "google: Example with q:\"mega\"": {
+    "prefix": "serpapi google example with q:\"mega\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_autocomplete\",",
+      "  q: \"pewdiepie\",",
+      "  client: \"chrome\",",
+      "  hl: \"ja\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "suggestions = client.get_hash[:suggestions]"
+    ],
+    "description": "google: Example with q:\"mega\""
+  },
+  "google: Available on results for \"Captain Marvel movie\"": {
+    "prefix": "serpapi google available on results for \"captain marvel movie\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"captain marvel movie\",",
+      "  location: \"United States\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "available_on = client.get_hash[:available_on]"
+    ],
+    "description": "google: Available on results for \"Captain Marvel movie\""
+  },
+  "google: Results for events in Austin": {
+    "prefix": "serpapi google results for events in austin",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"events in Austin\",",
+      "  google_domain: \"google.com\",",
+      "  gl: \"us\",",
+      "  hl: \"en\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "events_results = client.get_hash[:events_results]"
+    ],
+    "description": "google: Results for events in Austin"
+  },
+  "google: Results for events in Paris": {
+    "prefix": "serpapi google results for events in paris",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"evenements Paris\",",
+      "  google_domain: \"google.fr\",",
+      "  gl: \"fr\",",
+      "  hl: \"fr\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "events_results = client.get_hash[:events_results]"
+    ],
+    "description": "google: Results for events in Paris"
+  },
+  "google: Images Results for \"Apple\"": {
+    "prefix": "serpapi google images results for \"apple\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Apple\",",
+      "  tbm: \"isch\",",
+      "  ijn: \"0\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "images_results = client.get_hash[:images_results]"
+    ],
+    "description": "google: Images Results for \"Apple\""
+  },
+  "google: Inline images example": {
+    "prefix": "serpapi google inline images example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Red apple\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "images_results = client.get_hash[:images_results]"
+    ],
+    "description": "google: Inline images example"
+  },
+  "google: Product Result for \"4k tv\"": {
+    "prefix": "serpapi google product result for \"4k tv\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"4k+tv\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "shopping_results = client.get_hash[:shopping_results]"
+    ],
+    "description": "google: Product Result for \"4k tv\""
+  },
+  "google: Product Result for \"nerf ar-l\" mobile": {
+    "prefix": "serpapi google product result for \"nerf ar-l\" mobile",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"nerf+ar-l\",",
+      "  device: \"mobile\",",
+      "  location: \"United+States\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "shopping_results = client.get_hash[:shopping_results]"
+    ],
+    "description": "google: Product Result for \"nerf ar-l\" mobile"
+  },
+  "google: Geographic Location": {
+    "prefix": "serpapi google geographic location",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_jobs\",",
+      "  q: \"barista new york\",",
+      "  hl: \"en\",",
+      "  chips: \"date_posted:week,city:Owg_06VPwoli_nfhBo8LyA==\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "jobs_results = client.get_hash[:jobs_results]"
+    ],
+    "description": "google: Geographic Location"
+  },
+  "google: Knowledge Graph for \"Apple\"": {
+    "prefix": "serpapi google knowledge graph for \"apple\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Apple\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "knowledge_graph = client.get_hash[:knowledge_graph]"
+    ],
+    "description": "google: Knowledge Graph for \"Apple\""
+  },
+  "google: Knowledge Graph for \"Coffee\"": {
+    "prefix": "serpapi google knowledge graph for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Coffee\",",
+      "  location: \"United Kingdom\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "knowledge_graph = client.get_hash[:knowledge_graph]"
+    ],
+    "description": "google: Knowledge Graph for \"Coffee\""
+  },
+  "google: Knowledge Graph for \"Terry Gilliam\"": {
+    "prefix": "serpapi google knowledge graph for \"terry gilliam\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Terry Gilliams\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "knowledge_graph = client.get_hash[:knowledge_graph]"
+    ],
+    "description": "google: Knowledge Graph for \"Terry Gilliam\""
+  },
+  "google: Knowledge Graph Top Carrousel - \"People also search for\"": {
+    "prefix": "serpapi google knowledge graph top carrousel - \"people also search for\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"McDonald's\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "knowledge_graph = client.get_hash[:knowledge_graph]"
+    ],
+    "description": "google: Knowledge Graph Top Carrousel - \"People also search for\""
+  },
+  "google: Knowledge Graph - \"See photos\" and \"See outside\"": {
+    "prefix": "serpapi google knowledge graph - \"see photos\" and \"see outside\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Best buy madison heights\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "knowledge_graph = client.get_hash[:knowledge_graph]"
+    ],
+    "description": "google: Knowledge Graph - \"See photos\" and \"See outside\""
+  },
+  "google: Knowledge Graph - \"Popular Times\"": {
+    "prefix": "serpapi google knowledge graph - \"popular times\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Magnolia Cafe 2304 Lake Austin Blvd\",",
+      "  location: \"Austin, Texas, United States\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "popular_times = client.get_hash[:popular_times]"
+    ],
+    "description": "google: Knowledge Graph - \"Popular Times\""
+  },
+  "google: Local pack for stores and places": {
+    "prefix": "serpapi google local pack for stores and places",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"McDonald's\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Local pack for stores and places"
+  },
+  "google: Local pack for products": {
+    "prefix": "serpapi google local pack for products",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Coffee\",",
+      "  location: \"New York, New York, United States\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Local pack for products"
+  },
+  "google: Local pack for specific addresses": {
+    "prefix": "serpapi google local pack for specific addresses",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"500 Comal St, Austin, TX 78702 United States\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Local pack for specific addresses"
+  },
+  "google: Local results for stores": {
+    "prefix": "serpapi google local results for stores",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"McDonald's\",",
+      "  location: \"austin, texas, united states\",",
+      "  tbm: \"lcl\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Local results for stores"
+  },
+  "google: Local results for products": {
+    "prefix": "serpapi google local results for products",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"pizza\",",
+      "  location: \"austin, texas, united states\",",
+      "  tbm: \"lcl\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Local results for products"
+  },
+  "google: Local results for a specific place": {
+    "prefix": "serpapi google local results for a specific place",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"pizza\",",
+      "  location: \"austin, texas, united states\",",
+      "  tbm: \"lcl\",",
+      "  ludocid: \"1101873355030580567\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "ads = client.get_hash[:ads]"
+    ],
+    "description": "google: Local results for a specific place"
+  },
+  "google: Local results overview": {
+    "prefix": "serpapi google local results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  q: \"coffee\",",
+      "  ll: \"%4040.7455096%2C-74.0083012%2C15.1z\",",
+      "  type: \"search\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Local results overview"
+  },
+  "google: Ads results": {
+    "prefix": "serpapi google ads results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  q: \"pizza+delivery\",",
+      "  ll: \"@40.7455096,-74.0083012,15z\",",
+      "  type: \"search\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "ads = client.get_hash[:ads]"
+    ],
+    "description": "google: Ads results"
+  },
+  "google: Example with \"Hotel\" results": {
+    "prefix": "serpapi google example with \"hotel\" results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  q: \"hotel\",",
+      "  ll: \"@40.7455096,-74.0083012,15z\",",
+      "  type: \"search\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Example with \"Hotel\" results"
+  },
+  "google: Example with \"freezers austin\" results": {
+    "prefix": "serpapi google example with \"freezers austin\" results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  q: \"freezers austin\",",
+      "  ll: \"@30.3263114,-97.7451961,15z\",",
+      "  type: \"search\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Example with \"freezers austin\" results"
+  },
+  "google: Example with \"freezers texas\" results": {
+    "prefix": "serpapi google example with \"freezers texas\" results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  q: \"freezers texas\",",
+      "  ll: \"@30.3263114,-97.7451961,8z\",",
+      "  type: \"search\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_results = client.get_hash[:local_results]"
+    ],
+    "description": "google: Example with \"freezers texas\" results"
+  },
+  "google: Place results overview": {
+    "prefix": "serpapi google place results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  type: \"place\",",
+      "  data: \"!4m5!3m4!1s0x89c259a61c75684f%3A0x79d31adb123348d2!8m2!3d40.7457413!4d-73.98820049999999\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "place_results = client.get_hash[:place_results]"
+    ],
+    "description": "google: Place results overview"
+  },
+  "google: \"Extensions\" for place results": {
+    "prefix": "serpapi google \"extensions\" for place results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  type: \"place\",",
+      "  data: \"!4m5!3m4!1s0x89c259a61c75684f%3A0x79d31adb123348d2!8m2!3d40.7457413!4d-73.98820049999999\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "place_results = client.get_hash[:place_results]"
+    ],
+    "description": "google: \"Extensions\" for place results"
+  },
+  "google: \"User Reviews\" for place results": {
+    "prefix": "serpapi google \"user reviews\" for place results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  type: \"place\",",
+      "  data: \"!4m5!3m4!1s0x89c259a61c75684f%3A0x79d31adb123348d2!8m2!3d40.7457413!4d-73.98820049999999\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "place_results = client.get_hash[:place_results]"
+    ],
+    "description": "google: \"User Reviews\" for place results"
+  },
+  "google: \"People Also Search For\" for place results": {
+    "prefix": "serpapi google \"people also search for\" for place results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  type: \"place\",",
+      "  data: \"!4m5!3m4!1s0x89c259a61c75684f%3A0x79d31adb123348d2!8m2!3d40.7457413!4d-73.98820049999999\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "place_results = client.get_hash[:place_results]"
+    ],
+    "description": "google: \"People Also Search For\" for place results"
+  },
+  "google: Example for Maps Place results for the \"Omni Austin Hotel Downtown\"": {
+    "prefix": "serpapi google example for maps place results for the \"omni austin hotel downtown\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  type: \"place\",",
+      "  data: \"!4m5!3m4!1s0x8644b5a73c20f903%3A0xaa945f555da7262a!8m2!3d30.2689471!4d-97.7403971\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "place_results = client.get_hash[:place_results]"
+    ],
+    "description": "google: Example for Maps Place results for the \"Omni Austin Hotel Downtown\""
+  },
+  "google: Example for Maps Place results for the city of \"Austin\"": {
+    "prefix": "serpapi google example for maps place results for the city of \"austin\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_maps\",",
+      "  type: \"place\",",
+      "  data: \"!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267152999999997!4d-97.7430608\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "place_results = client.get_hash[:place_results]"
+    ],
+    "description": "google: Example for Maps Place results for the city of \"Austin\""
+  },
+  "google: News Results for \"Trump\"": {
+    "prefix": "serpapi google news results for \"trump\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Trump\",",
+      "  tbm: \"nws\",",
+      "  location: \"Dallas\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "news_results = client.get_hash[:news_results]"
+    ],
+    "description": "google: News Results for \"Trump\""
+  },
+  "google: Regular organic results page": {
+    "prefix": "serpapi google regular organic results page",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Coffee\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Regular organic results page"
+  },
+  "google: Expanded Sitelinks Example": {
+    "prefix": "serpapi google expanded sitelinks example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Apple\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Expanded Sitelinks Example"
+  },
+  "google: Thumbnail Example": {
+    "prefix": "serpapi google thumbnail example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Pewdiepie\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Thumbnail Example"
+  },
+  "google: Rich Snippet with Extensions Example": {
+    "prefix": "serpapi google rich snippet with extensions example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Book hotels in Austin\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Rich Snippet with Extensions Example"
+  },
+  "google: Inline Videos Example": {
+    "prefix": "serpapi google inline videos example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Bret Victor\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Inline Videos Example"
+  },
+  "google: Compact Inline Products Example": {
+    "prefix": "serpapi google compact inline products example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"popular tvs\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Compact Inline Products Example"
+  },
+  "google: Example of list format for top stories": {
+    "prefix": "serpapi google example of list format for top stories",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"donald trump\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Example of list format for top stories"
+  },
+  "google: Inline Products Example": {
+    "prefix": "serpapi google inline products example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"best keyboards\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Inline Products Example"
+  },
+  "google: Extended Inline Products Examples": {
+    "prefix": "serpapi google extended inline products examples",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"donald trump\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Extended Inline Products Examples"
+  },
+  "google: Organic Results State": {
+    "prefix": "serpapi google organic results state",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Cruises\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Organic Results State"
+  },
+  "google: Results for exact spelling: Regular Google search results page without query corrections": {
+    "prefix": "serpapi google results for exact spelling: regular google search results page without query corrections",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Coffeedsaasdasdad\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Results for exact spelling: Regular Google search results page without query corrections"
+  },
+  "google: Empty showing fixed spelling results: No results for exact spelling, but showing some for fixed spelling": {
+    "prefix": "serpapi google empty showing fixed spelling results: no results for exact spelling, but showing some for fixed spelling",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Cofeeasdasd\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Empty showing fixed spelling results: No results for exact spelling, but showing some for fixed spelling"
+  },
+  "google: Some results for exact spelling but showing fixed spelling: \"Showing results\" and \"Search instead\" links are shown": {
+    "prefix": "serpapi google some results for exact spelling but showing fixed spelling: \"showing results\" and \"search instead\" links are shown",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"pewdpie\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Some results for exact spelling but showing fixed spelling: \"Showing results\" and \"Search instead\" links are shown"
+  },
+  "google: Showing results for exact spelling despite spelling suggestion: \"Did you mean?\" block is shown": {
+    "prefix": "serpapi google showing results for exact spelling despite spelling suggestion: \"did you mean?\" block is shown",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"fbcvbseflt45\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Showing results for exact spelling despite spelling suggestion: \"Did you mean?\" block is shown"
+  },
+  "google: Without pagination parameters": {
+    "prefix": "serpapi google without pagination parameters",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"coffee\",",
+      "  safe: \"active\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "pagination = client.get_hash[:pagination]"
+    ],
+    "description": "google: Without pagination parameters"
+  },
+  "google: With pagination parameters": {
+    "prefix": "serpapi google with pagination parameters",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"coffee\",",
+      "  start: \"50\",",
+      "  num: \"25\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "pagination = client.get_hash[:pagination]"
+    ],
+    "description": "google: With pagination parameters"
+  },
+  "google: Product Results for a TV product": {
+    "prefix": "serpapi google product results for a tv product",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_product\",",
+      "  product_id: \"16618293882053925702\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "product_results = client.get_hash[:product_results]"
+    ],
+    "description": "google: Product Results for a TV product"
+  },
+  "google: Reviews Results for a TV product": {
+    "prefix": "serpapi google reviews results for a tv product",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_product\",",
+      "  product_id: \"8936678724796049616\",",
+      "  reviews: \"1\",",
+      "  gl: \"us\",",
+      "  hl: \"en\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "reviews_results = client.get_hash[:reviews_results]"
+    ],
+    "description": "google: Reviews Results for a TV product"
+  },
+  "google: Specs Results for a TV product": {
+    "prefix": "serpapi google specs results for a tv product",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_product\",",
+      "  product_id: \"8936678724796049616\",",
+      "  specs: \"1\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "specs_results = client.get_hash[:specs_results]"
+    ],
+    "description": "google: Specs Results for a TV product"
+  },
+  "google: Product Result for \"rtx 2080 ti": {
+    "prefix": "serpapi google product result for \"rtx 2080 ti",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"rtx+2080+ti\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "product_result = client.get_hash[:product_result]"
+    ],
+    "description": "google: Product Result for \"rtx 2080 ti"
+  },
+  "google: Extract video results on mobile view": {
+    "prefix": "serpapi google extract video results on mobile view",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"rtx+2080+ti\",",
+      "  device: \"mobile\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "product_result+videos = client.get_hash[:product_result+videos]"
+    ],
+    "description": "google: Extract video results on mobile view"
+  },
+  "google: Recipes results for \"cheesecake\"": {
+    "prefix": "serpapi google recipes results for \"cheesecake\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Cheesecake\",",
+      "  location: \"Austin,Texas,United States\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "recipes_results = client.get_hash[:recipes_results]"
+    ],
+    "description": "google: Recipes results for \"cheesecake\""
+  },
+  "google: Related questions - \"People also ask\"": {
+    "prefix": "serpapi google related questions - \"people also ask\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Is coffe bad for you?\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_questions = client.get_hash[:related_questions]"
+    ],
+    "description": "google: Related questions - \"People also ask\""
+  },
+  "google: Related Searches for \"top keyword\"": {
+    "prefix": "serpapi google related searches for \"top keyword\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Top keywords\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Related Searches for \"top keyword\""
+  },
+  "google: Related Search Box for \"top keyword\"": {
+    "prefix": "serpapi google related search box for \"top keyword\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Top keywords\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_search_boxes = client.get_hash[:related_search_boxes]"
+    ],
+    "description": "google: Related Search Box for \"top keyword\""
+  },
+  "google: Organic results overview": {
+    "prefix": "serpapi google organic results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_scholar\",",
+      "  q: \"biology\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "google: Organic results overview"
+  },
+  "google: Inline Sitelinks Example": {
+    "prefix": "serpapi google inline sitelinks example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_scholar\",",
+      "  q: \"biology\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "google: Inline Sitelinks Example"
+  },
+  "google: Extract Authors Link Example": {
+    "prefix": "serpapi google extract authors link example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_scholar\",",
+      "  q: \"iron\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results+1+publication_info = client.get_hash[:organic_results+1+publication_info]"
+    ],
+    "description": "google: Extract Authors Link Example"
+  },
+  "google: Resources Example": {
+    "prefix": "serpapi google resources example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"google_scholar\",",
+      "  q: \"biology\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results+2+resources = client.get_hash[:organic_results+2+resources]"
+    ],
+    "description": "google: Resources Example"
+  },
+  "google: Shopping Results for \"TV\"": {
+    "prefix": "serpapi google shopping results for \"tv\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"tv\",",
+      "  tbm: \"shop\",",
+      "  location: \"Dallas\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "answer_box = client.get_hash[:answer_box]"
+    ],
+    "description": "google: Shopping Results for \"TV\""
+  },
+  "google: Shopping Results filters with tbs values": {
+    "prefix": "serpapi google shopping results filters with tbs values",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"tv\",",
+      "  tbm: \"shop\",",
+      "  tbs: \"vw:l,mr:1,cat:404,root_cat:529656,buy:g,ss:67,init_ar:SgVKAwiUA0oHsgQECPipIA%3D%3D\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "filters = client.get_hash[:filters]"
+    ],
+    "description": "google: Shopping Results filters with tbs values"
+  },
+  "google: Google Search Results for \"Coffeee\"": {
+    "prefix": "serpapi google google search results for \"coffeee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Coffeee\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "search_information = client.get_hash[:search_information]"
+    ],
+    "description": "google: Google Search Results for \"Coffeee\""
+  },
+  "google: Google Search Results for \"serpapi\"": {
+    "prefix": "serpapi google google search results for \"serpapi\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"serpapi\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Google Search Results for \"serpapi\""
+  },
+  "google: Google Search Results for \"first coffee here fast\"": {
+    "prefix": "serpapi google google search results for \"first coffee here fast\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"first coffee here fast\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Google Search Results for \"first coffee here fast\""
+  },
+  "google: Team sports results (Soccer, American Football, Basketball, Hockey, Baseball, Cricket)": {
+    "prefix": "serpapi google team sports results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"manchester united\",",
+      "  location: \"austin, texas, united states\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "sports_results = client.get_hash[:sports_results]"
+    ],
+    "description": "google: Team sports results (Soccer, American Football, Basketball, Hockey, Baseball, Cricket)"
+  },
+  "google: Game spotlight results": {
+    "prefix": "serpapi google game spotlight results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Milwaukee Bucks\",",
+      "  location: \"austin, texas, united states\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "sports_results = client.get_hash[:sports_results]"
+    ],
+    "description": "google: Game spotlight results"
+  },
+  "google: Sports results for athletes (Soccer)": {
+    "prefix": "serpapi google sports results for athletes",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"lionel messi stats\",",
+      "  location: \"austin, texas, united states\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "sports_results = client.get_hash[:sports_results]"
+    ],
+    "description": "google: Sports results for athletes (Soccer)"
+  },
+  "google: Sports results for athletes (American Football, Basketball, Baseball)": {
+    "prefix": "serpapi google sports results for athletes",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"tom brady stats\",",
+      "  location: \"austin, texas, united states\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "sports_results = client.get_hash[:sports_results]"
+    ],
+    "description": "google: Sports results for athletes (American Football, Basketball, Baseball)"
+  },
+  "google: Sports results for athletes (Tennis)": {
+    "prefix": "serpapi google sports results for athletes",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"novak djokovic\",",
+      "  location: \"austin, texas, united states\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "sports_results = client.get_hash[:sports_results]"
+    ],
+    "description": "google: Sports results for athletes (Tennis)"
+  },
+  "google: Results for Auto and Moto Racing sports": {
+    "prefix": "serpapi google results for auto and moto racing sports",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"lewis hamilton\",",
+      "  location: \"austin, texas, united states\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "sports_results = client.get_hash[:sports_results]"
+    ],
+    "description": "google: Results for Auto and Moto Racing sports"
+  },
+  "google: Top Carousel results for \"Popular Rock Bands\"": {
+    "prefix": "serpapi google top carousel results for \"popular rock bands\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"popular rock bands\",",
+      "  location: \"Austin,Texas,United States\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "knowledge_graph = client.get_hash[:knowledge_graph]"
+    ],
+    "description": "google: Top Carousel results for \"Popular Rock Bands\""
+  },
+  "google: Top stories for \"trump\"": {
+    "prefix": "serpapi google top stories for \"trump\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"trump\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "top_stories = client.get_hash[:top_stories]"
+    ],
+    "description": "google: Top stories for \"trump\""
+  },
+  "google: Inline top stories for \"安倍晋三\"": {
+    "prefix": "serpapi google inline top stories for \"安倍晋三\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"安倍晋三\",",
+      "  location: \"Japan\",",
+      "  hl: \"ja\",",
+      "  gl: \"jp\",",
+      "  device: \"mobile\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Inline top stories for \"安倍晋三\""
+  },
+  "google: Twitter results for \"Donald Trump\"": {
+    "prefix": "serpapi google twitter results for \"donald trump\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Donald Trump twitter\",",
+      "  location: \"Austin,Texas,United States\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "twitter_results = client.get_hash[:twitter_results]"
+    ],
+    "description": "google: Twitter results for \"Donald Trump\""
+  },
+  "google: Video Results page for \"Coffee\"": {
+    "prefix": "serpapi google video results page for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Coffee\",",
+      "  tbm: \"vid\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "video_results = client.get_hash[:video_results]"
+    ],
+    "description": "google: Video Results page for \"Coffee\""
+  },
+  "google: Video Results Rich Snippet for \"Coffee\"": {
+    "prefix": "serpapi google video results rich snippet for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  q: \"Coffee\",",
+      "  tbm: \"vid\",",
+      "  hl: \"en\",",
+      "  gl: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "google: Video Results Rich Snippet for \"Coffee\""
+  },
+  "baidu: Bing Search Results for \"Coffee\"": {
+    "prefix": "serpapi baidu bing search results for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"baidu\",",
+      "  q: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "baidu: Bing Search Results for \"Coffee\""
+  },
+  "baidu: Bing Search Rich Snippet Results for \"Coffee\"": {
+    "prefix": "serpapi baidu bing search rich snippet results for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"baidu\",",
+      "  q: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "baidu: Bing Search Rich Snippet Results for \"Coffee\""
+  },
+  "bing: Bing Ads example": {
+    "prefix": "serpapi bing bing ads example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "ads = client.get_hash[:ads]"
+    ],
+    "description": "bing: Bing Ads example"
+  },
+  "bing: Knowledge Graph for \"PewDiePie\"": {
+    "prefix": "serpapi bing knowledge graph for \"pewdiepie\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"PewDiePie\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "knowledge_graph = client.get_hash[:knowledge_graph]"
+    ],
+    "description": "bing: Knowledge Graph for \"PewDiePie\""
+  },
+  "bing: Local pack results overview": {
+    "prefix": "serpapi bing local pack results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"Coffee\",",
+      "  location: \"Austin, TX, Texas, United States\",",
+      "  cc: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_map = client.get_hash[:local_map]"
+    ],
+    "description": "bing: Local pack results overview"
+  },
+  "bing: Inline local pack results": {
+    "prefix": "serpapi bing inline local pack results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"pizza\",",
+      "  location: \"Austin, TX, Texas, United States\",",
+      "  cc: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_map = client.get_hash[:local_map]"
+    ],
+    "description": "bing: Inline local pack results"
+  },
+  "bing: Local pack results for specific place": {
+    "prefix": "serpapi bing local pack results for specific place",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"elephant room\",",
+      "  location: \"Austin, TX, Texas, United States\",",
+      "  cc: \"us\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_map = client.get_hash[:local_map]"
+    ],
+    "description": "bing: Local pack results for specific place"
+  },
+  "bing: Bing Organic Search Results for \"Dog\"": {
+    "prefix": "serpapi bing bing organic search results for \"dog\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"Dog\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "bing: Bing Organic Search Results for \"Dog\""
+  },
+  "bing: Bing Expanded Sitelinks Example": {
+    "prefix": "serpapi bing bing expanded sitelinks example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"Wikipedia\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "bing: Bing Expanded Sitelinks Example"
+  },
+  "bing: Bing Thumbnail Example": {
+    "prefix": "serpapi bing bing thumbnail example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"PewDiePie\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "bing: Bing Thumbnail Example"
+  },
+  "bing: Bing Rich Snippet with Extensions Example": {
+    "prefix": "serpapi bing bing rich snippet with extensions example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"Chip Cookie Recipe\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "bing: Bing Rich Snippet with Extensions Example"
+  },
+  "bing: Related questions - \"People also ask\"": {
+    "prefix": "serpapi bing related questions - \"people also ask\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"is coffee bad for you?\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_questions = client.get_hash[:related_questions]"
+    ],
+    "description": "bing: Related questions - \"People also ask\""
+  },
+  "bing: Related searches for \"Coffee\"": {
+    "prefix": "serpapi bing related searches for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"bing\",",
+      "  q: \"is coffee bad for you?\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_questions = client.get_hash[:related_questions]"
+    ],
+    "description": "bing: Related searches for \"Coffee\""
+  },
+  "yahoo: Ads results overview": {
+    "prefix": "serpapi yahoo ads results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "yahoo: Ads results overview"
+  },
+  "yahoo: Inline sitelinks example": {
+    "prefix": "serpapi yahoo inline sitelinks example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "yahoo: Inline sitelinks example"
+  },
+  "yahoo: Expanded sitelinks example": {
+    "prefix": "serpapi yahoo expanded sitelinks example",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "yahoo: Expanded sitelinks example"
+  },
+  "yahoo: Local pack results overview": {
+    "prefix": "serpapi yahoo local pack results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"coffee shop new york\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "local_map = client.get_hash[:local_map]"
+    ],
+    "description": "yahoo: Local pack results overview"
+  },
+  "yahoo: Organic results page": {
+    "prefix": "serpapi yahoo organic results page",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "yahoo: Organic results page"
+  },
+  "yahoo: Related questions - \"People also ask\"": {
+    "prefix": "serpapi yahoo related questions - \"people also ask\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_questions = client.get_hash[:related_questions]"
+    ],
+    "description": "yahoo: Related questions - \"People also ask\""
+  },
+  "yahoo: Related searches for \"Coffee\"": {
+    "prefix": "serpapi yahoo related searches for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_searches = client.get_hash[:related_searches]"
+    ],
+    "description": "yahoo: Related searches for \"Coffee\""
+  },
+  "yahoo: Trending searches for \"香港人權\"": {
+    "prefix": "serpapi yahoo trending searches for \"香港人權\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yahoo\",",
+      "  p: \"香港人權\",",
+      "  yahoo_domain: \"hk\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "trending_searches = client.get_hash[:trending_searches]"
+    ],
+    "description": "yahoo: Trending searches for \"香港人權\""
+  },
+  "yandex: Example with text:\"mountain\" parameter": {
+    "prefix": "serpapi yandex example with text:\"mountain\" parameter",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yandex\",",
+      "  text: \"mountain\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "inline_videos = client.get_hash[:inline_videos]"
+    ],
+    "description": "yandex: Example with text:\"mountain\" parameter"
+  },
+  "yandex: Example with text:\"how i met your mother\" parameter": {
+    "prefix": "serpapi yandex example with text:\"how i met your mother\" parameter",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yandex\",",
+      "  text: \"how i met your mother\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "yandex: Example with text:\"how i met your mother\" parameter"
+  },
+  "yandex: Google Search Results for \"Coffeee\"": {
+    "prefix": "serpapi yandex google search results for \"coffeee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yandex\",",
+      "  q: \"Coffeee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "yandex: Google Search Results for \"Coffeee\""
+  },
+  "yandex: Google Search Results for \"bernie sunders\"": {
+    "prefix": "serpapi yandex google search results for \"bernie sunders\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"yandex\",",
+      "  q: \"bernie sunders\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "hash_results = client.get_hash"
+    ],
+    "description": "yandex: Google Search Results for \"bernie sunders\""
+  },
+  "ebay: Organic results page": {
+    "prefix": "serpapi ebay organic results page",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"ebay\",",
+      "  _nkw: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "ebay: Organic results page"
+  },
+  "ebay: Related items for \"Coffee\"": {
+    "prefix": "serpapi ebay related items for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"ebay\",",
+      "  _nkw: \"coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_items = client.get_hash[:related_items]"
+    ],
+    "description": "ebay: Related items for \"Coffee\""
+  },
+  "ebay: Related searches for \"Coffee\"": {
+    "prefix": "serpapi ebay related searches for \"coffee\"",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"ebay\",",
+      "  _nkw: \"coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_searches = client.get_hash[:related_searches]"
+    ],
+    "description": "ebay: Related searches for \"Coffee\""
+  },
+  "youtube: Ads results overview": {
+    "prefix": "serpapi youtube ads results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"youtube\",",
+      "  search_query: \"star wars\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "ads_results = client.get_hash[:ads_results]"
+    ],
+    "description": "youtube: Ads results overview"
+  },
+  "youtube: Top news category results": {
+    "prefix": "serpapi youtube top news category results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"youtube\",",
+      "  search_query: \"star wars\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "top_news = client.get_hash[:top_news]"
+    ],
+    "description": "youtube: Top news category results"
+  },
+  "youtube: Latest from Star Wars category results": {
+    "prefix": "serpapi youtube latest from star wars category results",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"youtube\",",
+      "  search_query: \"star wars\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "latest_from_star_wars = client.get_hash[:latest_from_star_wars]"
+    ],
+    "description": "youtube: Latest from Star Wars category results"
+  },
+  "youtube: Channel results overview": {
+    "prefix": "serpapi youtube channel results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"youtube\",",
+      "  search_query: \"star wars\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "channel_results = client.get_hash[:channel_results]"
+    ],
+    "description": "youtube: Channel results overview"
+  },
+  "youtube: Movie results overview": {
+    "prefix": "serpapi youtube movie results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"youtube\",",
+      "  search_query: \"star wars\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "movie_results = client.get_hash[:movie_results]"
+    ],
+    "description": "youtube: Movie results overview"
+  },
+  "youtube: Playlist results overview": {
+    "prefix": "serpapi youtube playlist results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"youtube\",",
+      "  search_query: \"star wars\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "video_results = client.get_hash[:video_results]"
+    ],
+    "description": "youtube: Playlist results overview"
+  },
+  "youtube: Related searches results overview": {
+    "prefix": "serpapi youtube related searches results overview",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"youtube\",",
+      "  search_query: \"star wars\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_searches = client.get_hash[:related_searches]"
+    ],
+    "description": "youtube: Related searches results overview"
+  },
+  "walmart: Featured item page": {
+    "prefix": "serpapi walmart featured item page",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart\",",
+      "  query: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "featured_item = client.get_hash[:featured_item]"
+    ],
+    "description": "walmart: Featured item page"
+  },
+  "walmart: Organic results page with filters": {
+    "prefix": "serpapi walmart organic results page with filters",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart\",",
+      "  query: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "filters = client.get_hash[:filters]"
+    ],
+    "description": "walmart: Organic results page with filters"
+  },
+  "walmart: Organic results page": {
+    "prefix": "serpapi walmart organic results page",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart\",",
+      "  query: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results = client.get_hash[:organic_results]"
+    ],
+    "description": "walmart: Organic results page"
+  },
+  "walmart: Organic results page with variant_swatches": {
+    "prefix": "serpapi walmart organic results page with variant_swatches",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart\",",
+      "  query: \"Coffee maker\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "organic_results+2+variant_swatches = client.get_hash[:organic_results+2+variant_swatches]"
+    ],
+    "description": "walmart: Organic results page with variant_swatches"
+  },
+  "walmart: Organic results page with pagination": {
+    "prefix": "serpapi walmart organic results page with pagination",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart\",",
+      "  query: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "pagination = client.get_hash[:pagination]"
+    ],
+    "description": "walmart: Organic results page with pagination"
+  },
+  "walmart: Search Query": {
+    "prefix": "serpapi walmart search query",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart_product\",",
+      "  product_id: \"743876032\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "product_result = client.get_hash[:product_result]"
+    ],
+    "description": "walmart: Search Query"
+  },
+  "walmart: Walmart Product result": {
+    "prefix": "serpapi walmart walmart product result",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart_product\",",
+      "  product_id: \"743876032\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "product_result = client.get_hash[:product_result]"
+    ],
+    "description": "walmart: Walmart Product result"
+  },
+  "walmart: Walmart Product reviews": {
+    "prefix": "serpapi walmart walmart product reviews",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart_product\",",
+      "  product_id: \"743876032\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "reviews_results = client.get_hash[:reviews_results]"
+    ],
+    "description": "walmart: Walmart Product reviews"
+  },
+  "walmart: Organic results page with related_queries": {
+    "prefix": "serpapi walmart organic results page with related_queries",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart\",",
+      "  query: \"Coffee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "related_queries = client.get_hash[:related_queries]"
+    ],
+    "description": "walmart: Organic results page with related_queries"
+  },
+  "walmart: Organic results page with spelling fix": {
+    "prefix": "serpapi walmart organic results page with spelling fix",
+    "body": [
+      "require 'google_search_results' ",
+      "",
+      "params = {",
+      "  engine: \"walmart\",",
+      "  query: \"cofee\",",
+      "  api_key: \"$1\"",
+      "}",
+      "",
+      "client = GoogleSearchResults.new(params)",
+      "search_information+spelling_fix = client.get_hash[:search_information+spelling_fix]"
+    ],
+    "description": "walmart: Organic results page with spelling fix"
+  }
+}

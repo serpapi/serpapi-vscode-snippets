@@ -1,0 +1,41 @@
+{
+	"name": "serpapi-snippet",
+	"displayName": "SerpAPI snippet",
+	"description": "SerpAPI client  Sample",
+	"version": "0.0.1",
+	"publisher": "serpapi.llc",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "java",
+				"path": "./java-snippets.json"
+			},
+			{
+				"language": "ruby",
+				"path": "./ruby-snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./node-snippets.json"
+			},
+			{
+				"language": "go",
+				"path": "./go-snippets.json"
+			},
+			{
+				"language": "csharp",
+				"path": "./dotnet-snippets.json"
+			}
+		]
+	},
+	"dependencies": {
+		"puppeteer": "^4.0.1",
+		"puppeteer-core": "^4.0.1"
+	}
+}
