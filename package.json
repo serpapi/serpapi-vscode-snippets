@@ -7,7 +7,15 @@
 	"engines": {
 		"vscode": "^1.28.0"
 	},
-	"icon": "./icon.png",
+	"icon": "icon.png",
+	"bugs": {
+		"url": "https://github.com/serpapi/serpapi-vscode-snippets/issues",
+		"email": "victor@serpapi.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/serpapi/serpapi-vscode-snippets"
+	},
 	"categories": [
 		"Snippets"
 	],
