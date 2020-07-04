@@ -39,9 +39,8 @@ Paste your api key into the cursor position.
 To install the library, you must visit [serpapi.com](https://serpapi.com/#integrations)  
 Follow the instruction for your favorite programming language.
 
-
 ## Release
- - 0.1 : first functional version 
+see CHANGELOG.md
 
 ## TODO
  - [ ] figure out bug with syntax in PHP
