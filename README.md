@@ -4,16 +4,18 @@ Scrape Google and other search engines from our fast, easy, and complete API.
 
 ![SerpApi snippet completion](./doc/serpapi-snippsets-ruby-example.gif)
      
-SerpAPI snippets contains a collection of 96+ snippets to intialize SerpApi library for many programming languages :
+SerpAPI snippets contain a collection of 96+ snippets to initialize SerpApi library for many programming languages :
  - Python 3.5+
  - Ruby 2.5+
  - NodeJS / JavaScript
  - Go / Golang
  - C# / CSharp / Dotnet
  - Java 6+
+ (soon) - Rust
+ (soon) - C++
  (soon) - Perl / Php
 
-The snippets covers the following search engine:
+The snippets cover the following search engine:
 - Google
 - Baidu
 - Bing
@@ -22,30 +24,34 @@ The snippets covers the following search engine:
 - Yahoo
 - Walmart
 - Youtube
-- and more...
 
-The (serpapi.com) backend is designed to handle search at scale on almost any search engine.
+The (serpapi.com) backend is designed to handle searches at scale on almost any search engine.
 
 ## Tutorial
 
-An api key is required, you need to create a [free or paid plan](https://serpapi.com/).
+An API Key is required, you need to create a [free or paid plan](https://serpapi.com/).
 
 To get a snippet started typing in an open file.
- * serpapi google...
+ * `serpapi google`...
+or
+ * `serpapi bing`...
+or
+ * `serpapi <engine>`...
 
-Then pick the one you want to try.  
-Paste your api key into the cursor position.
+Then select the snippet using the <Enter> key stroke.  
+ Paste your API Key into the cursor position, then validate with <Enter>.
 
 To install the library, you must visit [serpapi.com](https://serpapi.com/#integrations)  
 Follow the instruction for your favorite programming language.
 
 ## Release
-see CHANGELOG.md
+see: [CHANGELOG.md](https://github.com/serpapi/serpapi-vscode-snippets/blob/master/CHANGELOG.md)
 
 ## TODO
- - [ ] figure out bug with syntax in PHP
+ - [ ] figure out bugs with syntax in PHP
+ - [ ] upgrade when new libraries are available.
 
 ## Get help
-For support or any question you can [contact us](https://serpapi.com/#contact).
+For support, [contact us](https://serpapi.com/#contact).
 
-For technical issue on this snippets or suggestion you can file an [issue](https://github.com/serpapi/serpapi-vscode-snippets/issues).
+For technical issues related to those snippets, or suggestions you can file an [issue](https://github.com/serpapi/serpapi-vscode-snippets/issues).

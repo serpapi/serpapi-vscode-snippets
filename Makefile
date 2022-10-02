@@ -1,17 +1,24 @@
+# Automate VSCode plugin for SerpApi
+# 
 all: scrape snippets
 
+# create scrape.yml by scrape serpapi.com
 scrape:
 	node scrape.js
 
+# create snippets from scrape.yml files
 snippets:
 	ruby snippets.rb
 
+# install dependencies
+#  node / npm must be installed
 install:
 	npm install
 	npm install -g vsce
 
-#doc: https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+# TODO automate manually release flow
 publish: 
+	@echo "https://code.visualstudio.com/api/working-with-extensions/publishing-extension"
 
 # command to convert mov to GIF
 gif:
